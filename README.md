@@ -1,11 +1,11 @@
 # Desafio_Python_DIO
 Desafios de projetos do bootcamp Coding The Future Vivo - Python AI Backend Developer
 
-#Objetivos do Projeto
+## Objetivos do Projeto
 Fomos contratados por um grande banco para desenvolver o seu novo sistema. Esse banco deseja modernizar suas operações e para isso escolheu a linguagem Python.
 Para a primeira versão do sistema devemos implementar apenas 3 operações: depósito, saque e extrato.
 
-#Regras de negócio
+## Regras de negócio
 
 Operação de Depósito:
 Deve ser possível depositar valores positivos para a minha conta bancária. A versão 01 do projeto trabalha apenas com 1 usuário,
