@@ -30,6 +30,45 @@ Menu de Operações:
 [q] Sair
 
 
+# Atualização do Projeto incluindo otimizações do código e novas funções.
+Nessa nova versão a desafio02.py o sistema deve estar modularizado, para isso será necessário criar funções para as operações existentes(Depositar, Sacar e Extrato),
+além da inclusão  de novas funções e suas opções correspondentes no menu do sistema para permitir a Criação de Usuários (cliente do banco), 
+Criação de Contas (criar conta corrente vinculada ao usuário) e Listar as Contas criadas, 
+dessa forma o menu inicial ficou com as opções de operações listadas abaixo:
+
+Menu de Operações:
+[d]     Depositar
+[s]     Sacar
+[e]     Extrato
+[nc]    Nova conta
+[lc]    Listar contas
+[nu]    Novo usuário
+[q]     Sair
+
+## Função Saque
+A função saque deve receber os argumentos apenas por nome (keyword only).
+Sugestão de argumentos: saldo, valor, extrato, limite, numero_saques, limite_saques. Sugestão de retorno: saldo e extrato.
+
+## Função Depósito
+A função depósito deve receber os argumentos apenas por posição (positional only).
+Sugestão de argumentos: saldo, valor e extrato. Sugestão de retorno: saldo e extrato.
+
+## Função Extrato
+A função extrato deve receber os argumentos por posição e nome (positional only e keyword only). Argunento posicional:saldo e argumento nomeado:extrato.
+
+## Função Criar usuário (Cliente)
+O programa deve armazenar os usuários em um lista. Cada usuário é composto por: nome, data de nascimento, cpf e endereço, sendo o endereço uma string com o seguinte formato:
+logradouro, nro - bairro - cidade/UF.
+Deve ser armazenado somente os números do CPF e não é possível cadastrar mais de um usuário com o mesmo CPF.
+
+## Função Criar Conta Corrente
+O programa deve armazenar contas em uma lista, que será composta por:
+agência, número da conta e usuário, sendo o numero da conta sequencial e iniciando em 1 e o número da agência fixo com a numeração de "0001". Um usuário poderá ter mais de uma conta, mas uma conta pertence somente a um usuário.
+
+
+
+
+
 Paulo José Zeca 
 
 https://github.com/paulozeca/Desafio_Python_DIO
