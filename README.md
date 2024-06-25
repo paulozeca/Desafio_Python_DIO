@@ -1,6 +1,16 @@
 # Desafio_Python_DIO
 Desafios de projetos do bootcamp Coding The Future Vivo - Python AI Backend Developer
 
+# Atualização do Projeto Bancário em Python versaõ 01
+
+## Segunda etapa do desafio 
+Atualizar os métodos que tratam as opções do menu para funcionarem com as classes modeladas na primeira etapa da versão 01 do projeto. 
+
+## Primeira Etapa do desafio
+Atualizar a implementação do sistema bancário, para armazenar os dados de clientes e contas bancárias em objetos ao invés de dicionários. O código deve seguir o modelo de classes UML do arquivo anexo Trilha Python - desafio.png.
+
+
+
 ## Objetivos do Projeto
 Fomos contratados por um grande banco para desenvolver o seu novo sistema. Esse banco deseja modernizar suas operações e para isso escolheu a linguagem Python.
 Para a primeira versão do sistema devemos implementar apenas 3 operações: depósito, saque e extrato.
